@@ -1,0 +1,10 @@
+.TitleInputField{
+
+    border: white;
+    width: 18%;
+    font-size: 28px;
+    /* text-underline-position: auto; */
+    margin-left: 2%;
+    border-bottom: black 1px solid;
+
+}

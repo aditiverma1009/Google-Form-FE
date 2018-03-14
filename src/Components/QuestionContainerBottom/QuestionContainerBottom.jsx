@@ -12,10 +12,10 @@ class QuestionContainerBottom extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="QuestionContainerBottom">
         <i className="material-icons">delete</i>
         <form>
-          <input type="checkbox" name="vehicle" value="Bike" />
+          <input className="delete-icon" type="checkbox" name="vehicle" value="Bike" />
           <span>Required</span>
         </form>
       </div>

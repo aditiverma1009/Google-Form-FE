@@ -1,15 +1,18 @@
-.FloatingCard{
-    width: 80%;
+.FloatingCard{  
+    width: 60%;
     position: absolute;
     z-index: 100;
-    top: 10%;
-    right: 10%;
-    left: 10%;
+    top: 12%;
+    right: 20%;
+    left: 20%;
     min-height: 40%;
-    background-color:white;
+    background-color: white;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 .FloatingCardInner{
 flex-grow: 1;
+width: 100%;
 }

@@ -14,7 +14,7 @@ class FloatingCardInner extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="FloatingCardInner">
         <TitleFloatingCardInner />
         <QuesList />
       </div>

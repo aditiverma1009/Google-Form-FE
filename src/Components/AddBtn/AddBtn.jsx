@@ -12,7 +12,7 @@ class AddBtn extends React.Component {
 
   render() {
     return (
-      <i className="material-icons">control_point</i>
+      <i className="material-icons">&#xE3BA;</i>
     );
   }
 }

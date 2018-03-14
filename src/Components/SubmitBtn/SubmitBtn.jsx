@@ -12,9 +12,9 @@ class SubmitBtn extends React.Component {
 
   render() {
     return (
-      <div>
-        <button className="SubmitBtn" type="submit" value="submit" >SUBMIT</button>
-      </div>
+
+      <button className="SubmitBtn" type="submit" value="submit" >SUBMIT</button>
+
     );
   }
 }

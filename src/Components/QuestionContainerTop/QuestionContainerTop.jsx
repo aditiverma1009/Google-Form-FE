@@ -14,8 +14,8 @@ class QuestionContainerTop extends React.Component {
 
   render() {
     return (
-      <div>
-        <InputField Inputtype={this.props.Inputtype} />
+      <div className="QuestionContainerTop">
+        <InputField />
         <DropDown />
       </div>
     );

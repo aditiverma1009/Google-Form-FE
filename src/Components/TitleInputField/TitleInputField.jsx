@@ -13,7 +13,7 @@ class TitleInputField extends React.Component {
   render() {
     return (
 
-      <input type="text" placeholder="Untitled Form" />
+      <input className="TitleInputField" type="text" placeholder="Untitled Form" />
 
     );
   }
