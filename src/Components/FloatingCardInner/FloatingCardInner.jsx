@@ -1,7 +1,26 @@
-// import React from 'react';
-// import './floating-card-inner.css';
-// import FloatingCard from '../FloatingCard/FloatingCard';
+import React from 'react';
+import TitleFloatingCardInner from '../TitleFloatingCardInner/TitleFloatingCardInner';
+import QuesList from '../QuesList/QuesList';
+import './floating-card-inner.css';
+
+class FloatingCardInner extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      // formhistory: [],
+    };
+  }
 
 
-// export default FloatingCardInner;
+  render() {
+    return (
+      <div>
+        <TitleFloatingCardInner />
+        <QuesList />
+      </div>
+    );
+  }
+}
+
+export default FloatingCardInner;
 

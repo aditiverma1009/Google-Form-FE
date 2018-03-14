@@ -1,6 +1,8 @@
 import React from 'react';
 import Background from '../Background/Background';
 import FloatingCard from '../FloatingCard/FloatingCard';
+
+import FloatingCardInner from '../FloatingCardInner/FloatingCardInner';
 import './create-form.css';
 
 class CreateForm extends React.Component {
@@ -16,7 +18,7 @@ class CreateForm extends React.Component {
     return (
       <div className="CreateFormPage">
         <Background />
-        <FloatingCard />
+        <FloatingCard><FloatingCardInner /></FloatingCard>
       </div>
     );
   }
