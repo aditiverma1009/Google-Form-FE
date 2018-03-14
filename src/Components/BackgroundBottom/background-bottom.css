@@ -1,0 +1,13 @@
+.BackgroundBottom{
+    width: 100%;
+   
+    position: absolute;
+    z-index: 10;
+    background-color: #dc9bf193;
+    top:17%;
+    height:83%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}

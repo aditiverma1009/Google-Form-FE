@@ -2,11 +2,10 @@ import React from 'react';
 import BackgroundTop from '../BackgroundTop/BackgroundTop';
 import BackgroundBottom from '../BackgroundBottom/BackgroundBottom';
 import FloatingCard from '../FloatingCard/FloatingCard';
+import FloatingCardOneForm from '../FloatingCardOneForm/FloatingCardOneForm';
+import './display-one-form.css';
 
-import FloatingCardInner from '../FloatingCardInner/FloatingCardInner';
-import './create-form.css';
-
-class CreateForm extends React.Component {
+class DisplayOneForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,14 +16,15 @@ class CreateForm extends React.Component {
 
   render() {
     return (
-      <div className="CreateFormPage">
+      <div className="DisplayAllForms">
         <BackgroundTop />
         <BackgroundBottom />
-        <FloatingCard><FloatingCardInner /></FloatingCard>
+        <FloatingCard><FloatingCardOneForm /></FloatingCard>
+
       </div>
     );
   }
 }
 
-export default CreateForm;
+export default DisplayOneForm;
 

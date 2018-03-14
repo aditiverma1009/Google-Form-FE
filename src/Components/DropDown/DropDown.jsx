@@ -13,7 +13,11 @@ class DropDown extends React.Component {
   render() {
     return (
       <div className="DropDown">
-        <div>hi droppy</div>
+        <select name="questionType">
+          <option value="Date" ><i className="material-icons">date_range</i>Date</option>
+          <option value="Short answer"><i className="material-icons">short_text</i>Short answer</option>
+          <option value="Paragraph"><i className="material-icons">view_headline</i>Paragraph</option>
+        </select>
       </div>
     );
   }

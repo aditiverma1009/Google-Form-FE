@@ -1,9 +1,10 @@
 .SubmitBtn{
     border: none;
-    width: 10%;
+
     color: purple;
-    font-size: 18px;
+    
     font-weight: 600;
-    display: flex;
+    
     align-self: flex-end;
+   
 }

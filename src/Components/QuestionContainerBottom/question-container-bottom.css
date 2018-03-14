@@ -1,4 +1,10 @@
 .delete-icon{
- display:flex;
- flex-direction: row;
+
 }
+
+.QuestionContainerBottom{ display:flex;
+    flex-direction: row;
+justify-content: flex-end;
+padding:1.2%;
+
+border-top:1px lightgray solid;}

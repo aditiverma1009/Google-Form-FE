@@ -1,4 +1,7 @@
 .QuestionContainerTop{
     display: flex;
     height: 80%;
+    justify-content: space-between;
+    margin:5%;
+    padding:2%;
 }
