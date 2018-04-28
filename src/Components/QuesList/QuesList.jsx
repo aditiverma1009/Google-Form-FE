@@ -12,9 +12,16 @@ class QuesList extends React.Component {
 
 
   render() {
+    const { createdQues } = this.props;
+    const questionList = createdQues.map(step => (
+      <QuestionContainer
+        questext={step.questext}
+        quesisreq={step.quesisreq}
+        enum_questions_questype={step.enum_questions_questype}
+      />));
     return (
       <div className="QuestionList">
-        <QuestionContainer />
+        {questionList}
       </div>
     );
   }

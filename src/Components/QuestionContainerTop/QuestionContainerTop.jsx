@@ -15,8 +15,8 @@ class QuestionContainerTop extends React.Component {
   render() {
     return (
       <div className="QuestionContainerTop">
-        <InputField />
-        <DropDown />
+        <InputField questext={this.props.questext} />
+        <DropDown enum_questions_questype={this.props.enum_questions_questype} />
       </div>
     );
   }

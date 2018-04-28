@@ -12,10 +12,11 @@ class FormBox extends React.Component {
 
 
   render() {
+    const { id } = this.props;
     return (
       <div className="FormBox">
-        <FormCard />
-        <p className="ResponsesText">Responses</p>
+        <FormCard formtitle={this.props.formtitle} />
+        <p className="ResponsesText" >Responses</p>
       </div>
     );
   }

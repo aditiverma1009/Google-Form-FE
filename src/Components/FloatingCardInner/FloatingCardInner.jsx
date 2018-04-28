@@ -15,8 +15,8 @@ class FloatingCardInner extends React.Component {
   render() {
     return (
       <div className="FloatingCardInner">
-        <TitleFloatingCardInner />
-        <QuesList />
+        <TitleFloatingCardInner onAddClick={() => this.props.onAddClick()} />
+        <QuesList createdQues={this.props.createdQues} />
       </div>
     );
   }

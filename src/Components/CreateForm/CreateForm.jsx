@@ -20,7 +20,9 @@ class CreateForm extends React.Component {
       <div className="CreateFormPage">
         <BackgroundTop />
         <BackgroundBottom />
-        <FloatingCard><FloatingCardInner /></FloatingCard>
+        <FloatingCard>
+          <FloatingCardInner onAddClick={() => this.props.onAddClick()} createdQues={this.props.createdQues} />
+        </FloatingCard>
       </div>
     );
   }

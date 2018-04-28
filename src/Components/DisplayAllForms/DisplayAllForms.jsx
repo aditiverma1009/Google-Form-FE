@@ -15,15 +15,16 @@ class DisplayAllForms extends React.Component {
 
 
   render() {
+    console.log('bye', this.props.allForms);
     return (
       <div className="DisplayAllForms">
         <BackgroundTop>
-          <AddBtn />
+          <AddBtn onAddClick={() => this.props.onAddClick()} />
           <span>CREATE FORM </span>
         </BackgroundTop>
         <BackgroundBottom>
           <p className="available-forms">AVAILBLE FORMS</p>
-          <FormList />
+          <FormList allForms={this.props.allForms} />
         </BackgroundBottom>
 
       </div>

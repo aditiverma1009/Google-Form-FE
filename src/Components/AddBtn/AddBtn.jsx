@@ -12,7 +12,12 @@ class AddBtn extends React.Component {
 
   render() {
     return (
-      <i className="AddBtn material-icons">&#xE3BA;</i>
+      <i
+        className="AddBtn material-icons"
+        onClick={() => this.props.onAddClick()}
+      >
+      &#xE3BA;
+      </i>
     );
   }
 }

@@ -18,7 +18,7 @@ class TitleFloatingCardInner extends React.Component {
       <div className="TitleFloatingCardInner">
         <SubmitBtn />
         <TitleInputField />
-        <AddBtn />
+        <AddBtn onAddClick={() => this.props.onAddClick()} />
       </div>
     );
   }

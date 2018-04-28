@@ -15,8 +15,11 @@ class QuestionContainer extends React.Component {
   render() {
     return (
       <div className="QuestionContainer">
-        <QuestionContainerTop />
-        <QuestionContainerBottom />
+        <QuestionContainerTop
+          questext={this.props.questext}
+          enum_questions_questype={this.props.enum_questions_questype}
+        />
+        <QuestionContainerBottom quesisreq={this.props.quesisreq} />
       </div>
     );
   }

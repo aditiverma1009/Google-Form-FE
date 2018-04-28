@@ -12,9 +12,14 @@ class FormList extends React.Component {
 
 
   render() {
+    const { allForms } = this.props;
+    console.log('hi', allForms);
+    const allBoxes = allForms.map(step => (
+      <FormBox id={step.id} formtitle={step.formtitle} />
+    ));
     return (
       <div className="FormList">
-        <FormBox />
+        {allBoxes}
       </div>
     );
   }

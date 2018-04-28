@@ -13,7 +13,7 @@ class InputField extends React.Component {
   render() {
     return (
 
-      <input className="InputField" type="text" placeholder="Untitled Form" />
+      <input className="InputField" type="text" placeholder="Untitled Form" value={this.props.questext} />
 
     );
   }
